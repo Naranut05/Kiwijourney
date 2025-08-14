@@ -1,3 +1,6 @@
+import in_img from "../assets/in.png";
+import cat from "../assets/cat.png";
+import letterG from "../assets/letterG.png";
 
 export function Footer() {
   return (
@@ -6,13 +9,13 @@ export function Footer() {
         <div className="flex items-center space-x-4">
           <span className="text-gray-800 font-medium">Get in touch</span>
           <a href="#" className="text-gray-700 hover:text-green-600">
-            <i className="fab fa-linkedin fa-lg"></i>
+            <img src={in_img} alt="LinkedIn" className="w-6 h-6" />
           </a>
           <a href="#" className="text-gray-700 hover:text-gray-900">
-            <i className="fab fa-github fa-lg"></i>
+            <img src={cat} alt="GitHub" className="w-6 h-6" />
           </a>
           <a href="#" className="text-gray-700 hover:text-gray-900">
-            <i className="fab fa-google fa-lg"></i>
+            <img src={letterG} alt="Google" className="w-6 h-6" />
           </a>
         </div>
         <div>
