@@ -1,10 +1,11 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import { Menu } from "lucide-react";
+import { Import, Menu } from "lucide-react";
 import { Navbar } from "./components/NavBar";
 import { HeroSection } from "./components/HeroSection"; 
 import { Footer } from "./components/Footer";
+import { ArticleSection } from "./components/ArticleSection";
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <ArticleSection />
       <Footer />
     </>
   );
